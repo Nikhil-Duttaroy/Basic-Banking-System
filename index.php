@@ -87,7 +87,7 @@ ob_end_flush();
     <div class="container">    
          <div class="row justify-content-center">             
                 <div class="col-auto">
-                    <p>© Copyright 2020 Credit Management</p>
+                    <p>© Copyright 2020 Credit Manager</p>
                 </div>
           </div> 
     </div>

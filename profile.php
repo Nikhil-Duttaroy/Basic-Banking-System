@@ -10,8 +10,8 @@ if (isset($_POST['submit'])){
    $row = $stmt->fetch(PDO::FETCH_ASSOC);
    $sender=$row['user_name'];
    $balance=$row['user_credits'];
-   echo $sender;
-   echo $receiver;
+//    echo $sender;
+//    echo $receiver;
    if($balance<$amount){
      ?>
         <script>
@@ -180,4 +180,3 @@ $sender=$row['user_name']?? 'default value';;
 
 </body>
 </html>
-
