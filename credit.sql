@@ -38,13 +38,13 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`sender`, `receiver`, `trans_amount`) VALUES
-('Soham Lanke', 'Nikhil Duttaroy', 100),
-('Ruthvij Rane', 'Nikhil Duttaroy', 100),
-('Nikhil Duttaroy', 'Chinmay Mhatre', 500),
-('Chinmay Mhatre', 'Ritika Radhakrishnan', 250),
-('Nikhil Duttaroy', 'Chinmay Mhatre', 200),
-('Tanmay Hinge', 'Ritika Radhakrishnan', 200),
-('Chinmay Mhatre', 'Nikhil Duttaroy', 500);
+('Sakshi Singh', 'Ashna Maurya', 100),
+('Rutuja Patil', 'Ashna Maurya', 100),
+('Ashna Maurya', 'Chirag Poojary', 500),
+('Chirag Poojary', 'Rushika Makwana', 250),
+('Ashna Maurya', 'Chirag Poojary', 200),
+('Tarun Sharma', 'Rushika Makwana', 200),
+('Chirag Poojary', 'Ashna Maurya', 500);
 
 -- --------------------------------------------------------
 
@@ -64,16 +64,16 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `user_name`, `email`, `user_credits`) VALUES
-(1, 'Nikhil Duttaroy', 'nikhil@gmail.com', 500),
-(2, 'Ashwith poojary', 'Ashwith@gmail.com', 500),
-(3, 'Chinmay Mhatre', 'chinmay@gmail.com', 450),
-(4, 'Soham Lanke', 'Soham@gmail.com', 400),
-(5, 'Ruthvij Rane', 'ruthvijgmail.com', 400),
-(6, 'Tanmay Hinge', 'Tanmay@gmail.com', 300),
-(7, 'Ritika Radhakrishnan', 'ritika@gmail.com', 950),
-(8, 'Aastha Angre', 'aastha@gmail.com', 500),
-(9, 'Rutuja Jadhav', 'rutuja@gmail.com', 500),
-(10, 'Prasad Patil', 'prasad@gmail.com', 500);
+(1, 'Ashna Maurya', 'ashna@gmail.com', 500),
+(2, 'Aryan Singh', 'Aryan@gmail.com', 500),
+(3, 'Chirag Poojary', 'chirag@gmail.com', 450),
+(4, 'Soham Bhalerao', 'Soham@gmail.com', 400),
+(5, 'Rutuja Mishra', 'rutujagmail.com', 400),
+(6, 'Tanmay Sharma', 'Tanmay@gmail.com', 300),
+(7, 'Rushika Makwana', 'rushika@gmail.com', 950),
+(8, 'Anamika Gupta', 'anamika@gmail.com', 500),
+(9, 'Rutuja Singh', 'rutuja@gmail.com', 500),
+(10, 'Roshna Singh', 'roshna@gmail.com', 500);
 
 --
 -- Indexes for dumped tables
